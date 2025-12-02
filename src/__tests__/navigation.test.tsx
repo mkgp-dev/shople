@@ -1,7 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router";
-import Navigation from "../components/blocks/Navigation";
 import { useCartStore } from "../stores/cartStore";
+import Navigation from "../components/blocks/Navigation";
+import { expect, test } from "vitest";
 
 const renderNav = () =>
     render(

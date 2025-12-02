@@ -1,12 +1,12 @@
 import { act, render, screen, waitFor } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router";
+import { resetCartStoreForTests, useCartStore } from "../stores/cartStore";
+import type { Product } from "../types";
+import { expect, test, vi, beforeEach, afterEach } from "vitest";
 import App from "../App";
 import Navigation from "../components/blocks/Navigation";
 import Shop from "../pages/Shop";
-import { resetCartStoreForTests, useCartStore } from "../stores/cartStore";
-import type { Product } from "../types";
-
+import userEvent from "@testing-library/user-event";
 
 const mockProducts: Product[] = [
     {
