@@ -1,8 +1,9 @@
 # shople
 
+> [!IMPORTANT]
+> This project is now **discontinued** because I am no longer interested in continuing its development. It remains as a reference for the lessons I learned from The Odin Project, and it will now serve as an archived repository.
+
 A simple Shopping Cart project submitted for The Odin Project course.
-
-
 
 ### Built With
 
@@ -11,8 +12,6 @@ A simple Shopping Cart project submitted for The Odin Project course.
 - **Styling**: Tailwind-style utility classes, custom UI primitives (button, badge, card, quantity, spinner).
 - **Data**: FakeStore API.
 - **Testing**: Vitest + React Testing Library + JSDOM.
-
-
 
 ### Remarks
 
